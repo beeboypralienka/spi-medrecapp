@@ -1,0 +1,20 @@
+language: java
+install: ant deps
+jdk: oraclejdk8
+env:
+	- DISPLAY=:99.0
+before_install:
+	- sh -e /etc/init.d/xvfb start
+script:
+	- nosetests --with-coverage --cover-package=chip8
+services:
+  - mysql
+before_script:
+  - mysql -e 'create database myapp_test;'
+before_install:
+  - mysql -e "create database IF NOT EXISTS test;" -uroot
+test:
+  adapter: mysql2
+  database: medrec
+  username: root
+  encoding: utf8
