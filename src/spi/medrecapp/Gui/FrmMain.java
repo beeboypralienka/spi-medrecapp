@@ -59,12 +59,18 @@ public class FrmMain extends javax.swing.JFrame {
         menuRekmedPasien = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Medrecapp v.1");
 
         jDesktopPane1.setBackground(new java.awt.Color(127, 208, 215));
 
         menuFile.setText("File");
 
         menuExit.setText("Exit");
+        menuExit.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuExitActionPerformed(evt);
+            }
+        });
         menuFile.add(menuExit);
 
         jMenuBar1.add(menuFile);
@@ -319,6 +325,11 @@ public class FrmMain extends javax.swing.JFrame {
         // TODO add your handling code here:
         
     }//GEN-LAST:event_menuRekmedPasienActionPerformed
+
+    private void menuExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuExitActionPerformed
+        // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_menuExitActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
