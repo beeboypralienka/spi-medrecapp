@@ -12,3 +12,5 @@ hs_err_pid*
 /spi-medrecapp/nbproject/private/
 /build/
 /dist/
+/logs/
+/reports/

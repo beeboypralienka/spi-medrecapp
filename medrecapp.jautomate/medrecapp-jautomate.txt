@@ -1,0 +1,16 @@
+Write "[WINDOWS_PRESS]d[WINDOWS_RELEASE]"
+StartFile "D:\spi-medrecapp\dist\spi-medrecapp.jar"
+Click "medrecapp.jautomate/14657106521520.png"
+Click "medrecapp.jautomate/14657106521671.png"
+Click "medrecapp.jautomate/14657106521982.png" 168 91 71 32
+Write "SP-001[TAB]Internal disease[TAB]50000"
+Click "medrecapp.jautomate/14657106522143.png"
+Click "medrecapp.jautomate/14657106522304.png"
+Click "medrecapp.jautomate/14657106522455.png"
+Click "medrecapp.jautomate/14657106522616.png" 44 46
+Click "medrecapp.jautomate/14657106522777.png" 50 50
+Click "medrecapp.jautomate/1465711033241.png"
+Click "medrecapp.jautomate/14657106523089.png" 50 49
+Click "medrecapp.jautomate/146571065232310.png"
+Click "medrecapp.jautomate/146571065233911.png"
+
