@@ -66,13 +66,13 @@ public class FrmMainTest {
         screen.click("/medrecapp.sikuli/exit.png",0);        
     }
     
-    @Test
-    public void b_scenario_2() {   
-        //System.out.println("*** [This is JAutomate test] ***");
-        ScriptRunner scriptRunner = new ScriptRunner(new ScriptLoggerTest());                
-        scriptRunner.setParameter("medrecapp.jautomate", "medrecapp.jautomate");
-        scriptRunner.runScript("medrecapp.jautomate/medrecapp-jautomate.txt");
-    }
+//    @Test
+//    public void b_scenario_2() {   
+//        //System.out.println("*** [This is JAutomate test] ***");
+//        ScriptRunner scriptRunner = new ScriptRunner(new ScriptLoggerTest());                
+//        scriptRunner.setParameter("medrecapp.jautomate", "medrecapp.jautomate");
+//        scriptRunner.runScript("medrecapp.jautomate/medrecapp-jautomate.txt");
+//    }
     
     @AfterClass
     public static void tearDownClass() {        
